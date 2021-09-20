@@ -5,11 +5,11 @@ fun main() {
 }
 
 fun ejercicio1(num: Int) : Int {
-    var result = 0
-    if(num < 0) {
+    var result = num
+    if(result < 0) {
         result *= 2
         result += 3
-    } else if (num > 0) {
+    } else if (result > 0) {
         result /= 2
         result -= 3
     }
